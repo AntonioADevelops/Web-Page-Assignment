@@ -1,7 +1,8 @@
 body {
   background-color: #89CFF0;
   text-align: center;
-  border: 3px solid green;
+  border: 3px solid rgb(85, 61, 223);
+  font-family: 'Times New Roman', Times, serif; /*multiple fonts used as backup to ensure browser compatability*/
 }
 .why {
   font-size: 30px;
