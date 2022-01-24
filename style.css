@@ -10,3 +10,13 @@ body {
 .steps {
   font-size: 25px;
 }
+img {
+  border: 2px solid rgb(145, 96, 209);
+  border-radius: 5px;
+  padding: 5px;
+}
+video{
+  border: 2px solid rgb(145, 96, 209);
+  border-radius: 5px;
+  padding: 5px;
+}
