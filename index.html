@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="keywords" content="Screenshot, Screenshotted, NFT, Non Fundgible Token."> <!--Gives search engines Idea of what the website is about-->
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=' + scale + ', maximum-scale=' + scale + ', user-scalable=0"> <!--Makes sure the website is displayed correctly across devices-->
+    <meta name="viewport" content="width=1280, initial-scale=1"> <!--Makes sure the website is displayed correctly across devices-->
     <link rel="stylesheet" href="style.css">
     <title>The Art of Screnshotting NFTs</title> <!-- Title chosen as a way to hook oncoming traffic by including the keyterms "Screenshot" and "NFT"-->
   </head>
@@ -12,18 +12,39 @@
     <div class="why">
       <h2>Why?</h2>
       <p>Before you can screenshot an NFT you must ask yourself "why?" The answer to that is actually pretty simple. It's funny seeing NFT "owners" seethe over using the JPG they spent thousands buying.</p>
-      <img src="saveimage.gif" alt="man rages captioned as, nft sellers when they discover save image as." height="320" width="264"> <!-- Gif used for animated demonstration--> 
+      <img id="myImgA" src="saveimage.gif" alt="Man rages captioned as, nft sellers when they discover save image as." height="320" width="264"> <!-- Gif used for animated demonstration--> 
+      <div id="myModalA" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="captionA"></div>
+      </div>
     </div>
     <div class="steps">
       <h2>Step 1</h2> 
       <p>Whip out the good ol' screenshot tool for your operating system.</p> 
-      <img src="SSLogo.png" alt="scissors cutting lined paper outlined red" height="200" width="200"> <!--Used png because I wanted hgiher quality and the image is small enough that the load times are not affected drastically.--> 
+      <img id="myImgB" src="SSLogo.png" alt="scissors cutting lined paper outlined red" height="200" width="200"> <!--Used png because I wanted hgiher quality and the image is small enough that the load times are not affected drastically.-->      
+      <div id="myModalB" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img02">
+        <div id="captionB"></div>
+      </div> 
       <h2>Step 2</h2> 
-      <p>Take the screenshot.</p> <img src="Snip.gif" alt="someone using the windows snipping tool."> <!-- Gif used for animated demonstration--> 
+      <p>Take the screenshot.</p>
+      <img id="myImgC"src="Snip.gif" alt="someone using the windows snipping tool."> <!-- Gif used for animated demonstration--> 
+      <div id="myModalC" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img03">
+        <div id="captionC"></div>
+      </div>
       <h2>Step 3</h2>
       <p>Bask in the glory of knowing you now have the stupid image of an algorithmically generated monkey that someone payed hundreds of thousands for. 😎"</p>
-      <img src="NFT Mosaic.png" alt="Mosaic made out of NTS depicting someone pressing the right mouse button" width="720" height="354"> <!--Used PNG as converting to jpg looses too much quality. Image is already low res.-->
-      <video width="1280" height="720" controls autoplay muted loop> <!--Used two different file types to ensure compatability across web browsers.-->
+      <img id="myImgD"src="NFT Mosaic.png" alt="Mosaic made out of NTS depicting someone pressing the right mouse button" width="720" height="354"> <!--Used PNG as converting to jpg looses too much quality. Image is already low res.-->
+      <div id="myModalD" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img04">
+        <div id="captionD"></div>
+      </div>
+      <video width="1152" height="648" controls autoplay muted loop> <!--Used two different file types to ensure compatability across web browsers.-->
         <source src="screenshot.mp4" type="video/mp4"> <!--Safari / iOS video-->
         <source src="screenshot.ogg" type="video/ogg"> <!--Firefox / Opera / Chrome10-->
         Your browser does not support the video tag.
@@ -31,4 +52,5 @@
       <p>Video courtesy of <a href="https://www.youtube.com/channel/UCqx824jn-IIbhVx8ErRxpZA" target="_blank">Ravioli God</a>.</p>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
